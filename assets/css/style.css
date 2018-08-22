@@ -1,16 +1,8 @@
-.logo{
+.logo_titulo{
 height: 146.3px;
 width: 240px;
-
-
+display: inline;
 }
-
-
-
-
-
-
-
 
 
 
@@ -21,4 +13,18 @@ width: 120px;
 margin: 2px;
 background-color: gold;
 text-align: center;
+}
+
+
+
+
+.rodape{
+border-style: solid;
+height: 146.3px;
+width:600px;
+margin: 2px;
+background-color: red;
+display: inline;
+
+
 }
