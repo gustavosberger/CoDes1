@@ -1,24 +1,47 @@
-.logo_titulo{
+.logo{
+position: relative;
 height: 146.3px;
 width: 240px;
 display: inline;
+
 }
 
+.title{
+position: fixed;
+margin-top:-100px;
+margin-bottom: 100px;
+margin-left: 520px;
+display: block;
+font-size: 50px
 
+}
 
 .main_bar{
+position: relative;
 border-style: solid;
 height: 146.3px;
 width: 120px;
-margin: 2px;
+margin: 10px;
+display: block;
 background-color: gold;
 text-align: center;
+
 }
 
+.menu_img{
+position:absolute;
+margin-left: 50px;
+margin-top: 50px;
+height: 35px;
+width: 35px;
+z-index: 1;
+
+}
 
 
 
 .rodape{
+position: relative;
 border-style: solid;
 height: 146.3px;
 width:600px;
