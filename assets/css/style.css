@@ -1,7 +1,18 @@
+.background{
+background-image: url("https://previews.123rf.com/images/vska/vska1612/vska161200019/68126954-abstract-hexagon-background-technology-polygonal-design-digital-futuristic-minimalism-vector.jpg");
+background-size: all;
+background-position: center;
+
+
+}
+
+
+
+
 .logo{
 position: relative;
 height: 146.3px;
-width: 240px;
+width: 250px;
 display: inline;
 
 }
@@ -22,12 +33,13 @@ border-style: solid;
 height: 146.3px;
 width: 120px;
 margin: 10px;
-display: block;
-background-color: gold;
+display: ;
+background-color:none; 
 text-align: center;
-
+font-size: 18px;
+font-style: oblique;
+color: black;
 }
-
 .menu_img{
 position:absolute;
 margin-left: 50px;
@@ -43,10 +55,22 @@ z-index: 1;
 .rodape{
 position: relative;
 border-style: solid;
-height: 146.3px;
-width:600px;
-margin: 200px;
-background-color: red;
+height: 10px;
+margin-left: 400px;
 display: inline;
+background-color:gold; 
+text-align: center;
+font-size: 18px;
+font-style: oblique;
+color: black;	
+}
+
+.caption{
+display: block;
+line-break:strict;
+
+
+
+
 
 }
