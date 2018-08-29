@@ -118,13 +118,3 @@ line-break:strict;
 >>>>>>> f830f6f3510580fc3e8aed640e43062ae082ff83
 
 
-
-.title_prog{
-	position: relative;
-	height: 10rem;
-	width: 25rem;
-	display: inline;
-	font-family: Arial, Verdana, Tahoma, Palatino;
-	font-weight: bold;
-	font-style: 7rem;
-}
