@@ -11,19 +11,19 @@ background-position: center;
 
 .logo{
 position: relative;
-height: 146.3px;
-width: 250px;
+height: 10rem;
+width: 25rem;
 display: inline;
 
 }
 
 .title{
-position: fixed;
-margin-top:-100px;
-margin-bottom: 100px;
-margin-left: 520px;
+position: absolute;
+margin-top:-7rem;
+margin-bottom: 50rem;
+margin-left: 20rem;
 display: block;
-font-size: 50px
+font-size: 3.5rem;
 
 }
 
@@ -52,18 +52,24 @@ z-index: 1;
 
 
 
-.rodape{
-position: relative;
-border-style: solid;
-height: 10px;
-margin-left: 400px;
-display: inline;
-background-color:gold; 
-text-align: center;
-font-size: 18px;
-font-style: oblique;
-color: black;	
+
+
+
+#rodape_left{
+width: 40rem;
+height: 20rem;
+align-items: flex-end;
+
+float: left;
+
 }
+#rodape_right{
+width: 20rem;
+height: 20rem;
+float: right;
+}
+
+
 
 .caption{
 display: block;
