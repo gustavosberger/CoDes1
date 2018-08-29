@@ -22,6 +22,7 @@ margin-bottom: 50rem;
 margin-left: 20rem;
 display: block;
 font-size: 3.5rem;
+font-family: Georgia, Arial, Verdana, Tahoma, Palatino;
 
 }
 
@@ -55,12 +56,16 @@ height: 20rem;
 align-items: flex-end;
 
 float: left;
+font-size: 1.2rem;
+font-family: Futura, Arial, Verdana, Tahoma, Palatino;
 
 }
 #rodape_right{
 width: 20rem;
 height: 20rem;
 float: right;
+font-family: Futura, Arial, Verdana, Tahoma, Palatino;
+font-size: 1.2rem;
 }
 
 
