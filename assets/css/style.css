@@ -22,6 +22,7 @@ margin-bottom: 50rem;
 margin-left: 20rem;
 display: block;
 font-size: 3.5rem;
+font-family: Georgia, Arial, Verdana, Tahoma, Palatino;
 
 }
 
@@ -55,12 +56,16 @@ height: 20rem;
 align-items: flex-end;
 
 float: left;
+font-size: 1.2rem;
+font-family: Futura, Arial, Verdana, Tahoma, Palatino;
 
 }
 #rodape_right{
 width: 20rem;
 height: 20rem;
 float: right;
+font-family: Futura, Arial, Verdana, Tahoma, Palatino;
+font-size: 1.2rem;
 }
 
 
@@ -113,6 +118,19 @@ line-break:strict;
     display: block;
 }
 
+<<<<<<< HEAD
+}
+=======
 .dropdown:hover .dropbtn {
+<<<<<<< HEAD
+    background-color: #3e8e41;
+}
+>>>>>>> f830f6f3510580fc3e8aed640e43062ae082ff83
+
+
+=======
     background-color: #ff6666;
 }
+>>>>>>> d8a93a494be50bb01c649e53163d8fa7cd8f5e3c
+
+
