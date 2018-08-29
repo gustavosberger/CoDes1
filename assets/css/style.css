@@ -2,11 +2,9 @@
 background-image: url("https://previews.123rf.com/images/vska/vska1612/vska161200019/68126954-abstract-hexagon-background-technology-polygonal-design-digital-futuristic-minimalism-vector.jpg");
 background-size: all;
 background-position: center;
-
+backface-visibility:;
 
 }
-
-
 
 
 .logo{
@@ -42,10 +40,10 @@ color: black;
 }
 .menu_img{
 position:absolute;
-margin-left: 50px;
-margin-top: 50px;
-height: 35px;
-width: 35px;
+margin-left: 1.5rem;
+margin-top: 1.5rem;
+height: 2.125rem;
+width: 2.125rem;
 z-index: 1;
 
 }
@@ -74,36 +72,42 @@ line-break:strict;
 
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: rgb(255, 0, 0);
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 1rem;
+    font-size: 1rem;
     border: none;
     cursor: pointer;
+
 }
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline-table;
+   	width: 15.5rem;
+   	background-color: red;
+
+   	
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 10rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgb(255, 255, 255);
     z-index: 1;
+    
 }
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #ff6666}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -113,8 +117,13 @@ line-break:strict;
 }
 =======
 .dropdown:hover .dropbtn {
+<<<<<<< HEAD
     background-color: #3e8e41;
 }
 >>>>>>> f830f6f3510580fc3e8aed640e43062ae082ff83
 
 
+=======
+    background-color: #ff6666;
+}
+>>>>>>> d8a93a494be50bb01c649e53163d8fa7cd8f5e3c
