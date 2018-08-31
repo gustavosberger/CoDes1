@@ -57,10 +57,8 @@ font-size: 1.2rem;
 }
 
 
-
-.caption{
-display: block;
-line-break:strict;
+a {
+text-decoration: none;
 }
 
 
