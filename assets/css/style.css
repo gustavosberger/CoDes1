@@ -42,11 +42,10 @@ z-index: 1;
 width: 40rem;
 height: 20rem;
 align-items: flex-end;
-
 float: left;
 font-size: 1.2rem;
 font-family: Futura, Arial, Verdana, Tahoma, Palatino;
-
+align-items: flex-end;
 }
 #rodape_right{
 width: 20rem;
@@ -54,6 +53,7 @@ height: 20rem;
 float: right;
 font-family: Futura, Arial, Verdana, Tahoma, Palatino;
 font-size: 1.2rem;
+align-items: flex-end;
 }
 
 
@@ -61,7 +61,10 @@ a {
 text-decoration: none;
 }
 
-
+footer{
+    justify-content: space-around;
+    align-items: flex-end;
+}
 .dropbtn {
     background-color: rgb(255, 0, 0);
     color: white;
