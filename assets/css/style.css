@@ -113,3 +113,27 @@ text-decoration: none;
     background-color: #ff6666;
 }
 
+
+/*Para celulares*/
+
+@media (max-width: 360px) {
+    .nav-list {
+        background-color: #0000FF;
+        display: block;
+        height: 100%;
+        width: 90%;
+        position: fixed;
+        top: 0;
+        left: -90%;
+        transition: left .5s;
+    }
+
+    .logo:hover + .dropbtn {
+        left: 0;
+    }
+
+    .dropdown-content {
+        color: #FFFFFF;
+        margin: 2rem;
+    }
+}
