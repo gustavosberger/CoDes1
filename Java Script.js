@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   let db = new DB('https://co-design-grupo-2-projeto-1.firebaseio.com/')
 
-  let tpName = new TP('template-name')
+  let tpName = new TP('title')
 
-  let tpGoals = new TP('template-goals')
+  let tpGoals = new TP('main_text')
 
   let params = new URLSearchParams(window.location.search)
 
