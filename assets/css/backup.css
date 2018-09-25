@@ -57,11 +57,11 @@ backface-visibility:;
    
 }
 
-.main_text_left{
-    
+.main_text{
+    background-color: white;
     display: flex;
-    justify-content: space-between;
     
+    justify-content: space-around;
     margin:1rem;
     height: 100%;
     max-width: 100%;
@@ -72,22 +72,18 @@ backface-visibility:;
 
 }
 
-.main_text_left_jpg{
-    
-    
-    
+.main_text_left{
+    background-color: gold;
+    width: 50%;
 
        
 
 }
-.main_text_left_txt{
-    
-    
-    margin-left: 2rem;
-    text-align: justify;
-    font-family: Georgia, Arial;
-    font-size:1.5rem;
-    
+.main_text_left_jpg{
+    position: relative;
+    background-color:green;
+    max-width: 100%;
+    margin-top: 5rem;
 
    
  
@@ -96,31 +92,21 @@ backface-visibility:;
 
 .main_text_right{
     
-    
-    display: flex;
-    justify-content: space-between;
-    
-    margin:1rem;
-    height: 100%;
-    max-width: 100%;
+    background-color:blue;
+    width: 50%;
+    margin-left: 5rem;
+    text-align: justify;
    
     
 
 }
 
-.main_text_right_jpg{
+.main_text_right_txt{
   
-    
+    background-color:rgb(255,0,0);
+   
 
 
-}
-
-.main_text_right_txt1{
-    
-    margin-left: 2rem;
-    text-align: justify;
-    font-family: Georgia, Arial;
-    font-size:1.5rem;
 
 
 }
