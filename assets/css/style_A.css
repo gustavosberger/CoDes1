@@ -31,11 +31,13 @@ backface-visibility:;
     margin-left: 3rem;
     margin-top: 1.5rem;
     z-index:;
+
+}
+
+.logo_menu{
    
-
-
-
-
+    height: 2.5rem;
+    width: 3rem;
 }
 
 .title{
